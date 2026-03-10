@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>何意味？！</title>
 </head>
-<body style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100vh; margin: 0;">
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100vh; margin: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);">
+    
     <h1 style="margin-top: 15vh;color: brown;">何意味？！。</h1>
+    
+    <!-- 使用<a>标签包裹按钮实现链接跳转 -->
+    <a href="https://www.bing.com" target="_blank" style="text-decoration: none;">
+        <button style="margin-top: 40px; margin-bottom: 40px; padding: 12px 30px; 
+                       background-color: #4facfe; color: white; border: none; 
+                       border-radius: 25px; font-size: 18px; cursor: pointer;
+                       box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s;
+                       border: 1px solid rgba(255,255,255,0.3);"
+                onmouseover="this.style.backgroundColor='#00f2fe'; this.style.transform='scale(1.05)';"
+                onmouseout="this.style.backgroundColor='#4facfe'; this.style.transform='scale(1)';">
+            Click
+        </button>
+    </a>
+    
     <img src="https://picx.zhimg.com/v2-da54354cd985e886f74e844cb0043aa5_r.jpg" alt="描述文字" style="margin-top: 30px; max-width: 80%;">
+    
 </body>
 </html>
